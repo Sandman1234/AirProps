@@ -107,6 +107,8 @@ The following table can be used as a reference for calculating the battery state
 Required Pin(s):
 - 1 Anal IO
 
+![Main](https://raw.githubusercontent.com/Sandman1234/AirProps/refs/heads/main/Bomb/_readMe_media/mainschematic.png)
+
 ---
 
 ### Feedback
@@ -135,6 +137,8 @@ Required Pin(s):
 - 4 SPI (MISO, MOSI, SCLK, CE1 )
 - 3 Dig IO ( -, -, PWM )
 
+![Feedback](https://raw.githubusercontent.com/Sandman1234/AirProps/refs/heads/main/Bomb/_readMe_media/feedbackschematic.png)
+
 ---
 
 ### Admin
@@ -156,6 +160,8 @@ Required Pin(s):
 Required Pin(s):
 - 4 SPI (MISO, MOSI, SCLK, CE2 )
 
+![Admin](https://raw.githubusercontent.com/Sandman1234/AirProps/refs/heads/main/Bomb/_readMe_media/adminschematic.png)
+
 ---
 
 ### Input
@@ -175,6 +181,8 @@ It uses a **4 × 4 membrane matrix keypad** with the following characters:
 
 Required Pin(s):
 - 8 Dig IO (-, -, -, -, -, -, -, -)
+
+![Input](https://raw.githubusercontent.com/Sandman1234/AirProps/refs/heads/main/Bomb/_readMe_media/inputschematic.png)
 
 ---
 
@@ -313,6 +321,8 @@ Az alábbi táblázat referenciaértékként használható az akkumulátor tölt
 Szükséges Pin(ek):
 - 1 Anal IO
 
+![Main](https://raw.githubusercontent.com/Sandman1234/AirProps/refs/heads/main/Bomb/_readMe_media/mainschematic.png)
+
 ---
 
 ### Visszajelzés
@@ -341,6 +351,8 @@ Szükséges Pin(ek):
 - 4 SPI (MISO, MOSI, SCLK, CE1 )
 - 3 Dig IO ( -, -, PWM )
 
+![Feedback](https://raw.githubusercontent.com/Sandman1234/AirProps/refs/heads/main/Bomb/_readMe_media/feedbackschematic.png)
+
 ---
 
 ### Adminisztrátori egység
@@ -359,6 +371,8 @@ Amennyiben a kiválasztott mikrokontroller és a szoftver lehetővé teszi, az a
 
 Szükséges Pin(ek):
 - 4 SPI (MISO, MOSI, SCLK, CE2 )
+
+![Admin](https://raw.githubusercontent.com/Sandman1234/AirProps/refs/heads/main/Bomb/_readMe_media/adminschematic.png)
 
 ---
 
@@ -379,6 +393,8 @@ Egy **4 × 4-es membrános mátrix billentyűzetet** használ, amely az alábbi 
 
 Szükséges Pin(ek):
 - 8 Dig IO (-, -, -, -, -, -, -, -)
+
+![Input](https://raw.githubusercontent.com/Sandman1234/AirProps/refs/heads/main/Bomb/_readMe_media/inputschematic.png)
 
 ---
 
@@ -407,3 +423,6 @@ Az akkumulátor paraméterei:
 - PAC-3V3-3P
 - 2 × ECEA0JKA101I
 - ECEA0JKA221B
+
+
+
