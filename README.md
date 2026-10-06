@@ -35,4 +35,4 @@
 | 5 | 31,663 HUF |
 | 10 | 58,888 HUF |
 
-> **Price reference:** These prices are in HUF and were recorded on **2026-10-06**.
+> **Price reference:** These prices are in HUF and were recorded on **2026-10-06** and the prices only represent the components only!.
