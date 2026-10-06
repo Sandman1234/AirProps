@@ -27,17 +27,53 @@
 | `100.510.28` | 2 | ECEA0JKA101I |
 | `100.510.27` | 1 | ECEA0JKA221B |
 | `100.205.41` | 2 | 10 K 1% |
+| `100.204.99` | 2 | 200 R 1% |
 
 ### Price Calculation for One and Multiple Pieces
 
 | Number of Units | Total Price |
 |---:|---:|
-| 1 | 7,973 HUF |
-| 5 | 31,663 HUF |
-| 10 | 58,888 HUF |
-
+| 1 | 8,055 HUF |
+| 5 | 31,769 HUF |
+| 10 | 59,100 HUF |
 > **Price reference:** These prices are in HUF and were recorded on **2026-10-06** and the prices only represent the electronical components only!.
 
 ## Topology and Schematic
-![topology](https://github.com/Sandman1234/AirProps/blob/main/Bomb/_readMe_media/d76e02c7-33ff-4fe9-8ae8-5ad07b27028b.jpeg)
->
+![topology](https://raw.githubusercontent.com/Sandman1234/AirProps/refs/heads/main/Bomb/_readMe_media/architure.jpeg)
+<sub>base topology to work the schematic around</sub>
+
+## Detailed Sub-sections
+
+The project is module based, so any component can be changed, to make the device as customizeable as possible.
+the 5 main section is the following
+- Main
+- Feedback
+- Input
+- Admin
+- Power unit
+
+# Main
+
+This section is just a carrier for the microcontroller unit. As was told before, this unit can also be changed to any other microcontroller based unit. The only condition is the main 3V3 input line.
+
+Required Component:
+- ESP32-D1-MINI-CP2104-C
+
+# Feedback
+
+This section is for the device's feedbacks. It is equipped with a MAX7219 based 8x7+DP segment led NUM display, 2 LEDs with their resistors (red and green w/ 200 R) and lastly with a 80dB (85dB and more can cause permanent hearing problems) piezo beeper.
+
+Required Component:
+- MAX7219-SLD
+- L-793GD
+- L-53 IT
+- 200 R 1%
+- SFN-1207PA5.0
+
+
+# Admin
+
+# Input
+
+# Power unit
+
