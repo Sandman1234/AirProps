@@ -100,6 +100,9 @@ The following table can be used as a reference for calculating the battery state
 - ESP32-D1-MINI-CP2104-C
 - 2 × 10 K 1%
 
+Required Pin(s):
+- 1 Anal IO
+
 ---
 
 ### Feedback
@@ -124,6 +127,10 @@ It is equipped with:
 - 2 × 200 R 1%
 - SFN-1207PA5.0
 
+Required Pin(s):
+- 4 SPI (MISO, MOSI, SCLK, CE1 )
+- 3 Dig IO ( -, -, PWM )
+
 ---
 
 ### Admin
@@ -139,6 +146,11 @@ If supported by the selected microcontroller and software, administrator functio
 **Required Component(s):**
 
 - RC522-MFRC
+
+Required Pin(s):
+
+Required Pin(s):
+- 4 SPI (MISO, MOSI, SCLK, CE2 )
 
 ---
 
@@ -156,6 +168,9 @@ It uses a **4 × 4 membrane matrix keypad** with the following characters:
 **Required Component(s):**
 
 - KP-4X4/MEM
+
+Required Pin(s):
+- 8 Dig IO (-, -, -, -, -, -, -, -)
 
 ---
 
@@ -291,6 +306,9 @@ Az alábbi táblázat referenciaértékként használható az akkumulátor tölt
 - ESP32-D1-MINI-CP2104-C
 - 2 × 10 K 1%
 
+Szükséges Pin(ek):
+- 1 Anal IO
+
 ---
 
 ### Visszajelzés
@@ -315,6 +333,10 @@ A következő elemekből áll:
 - 2 × 200 R 1%
 - SFN-1207PA5.0
 
+Szükséges Pin(ek):
+- 4 SPI (MISO, MOSI, SCLK, CE1 )
+- 3 Dig IO ( -, -, PWM )
+
 ---
 
 ### Adminisztrátori egység
@@ -330,6 +352,9 @@ Amennyiben a kiválasztott mikrokontroller és a szoftver lehetővé teszi, az a
 **Szükséges alkatrész(ek):**
 
 - RC522-MFRC
+
+Szükséges Pin(ek):
+- 4 SPI (MISO, MOSI, SCLK, CE2 )
 
 ---
 
@@ -347,6 +372,9 @@ Egy **4 × 4-es membrános mátrix billentyűzetet** használ, amely az alábbi 
 **Szükséges alkatrész(ek):**
 
 - KP-4X4/MEM
+
+Szükséges Pin(ek):
+- 8 Dig IO (-, -, -, -, -, -, -, -)
 
 ---
 
