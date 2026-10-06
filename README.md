@@ -52,14 +52,14 @@ the 5 main section is the following
 - Admin
 - Power unit
 
-# Main
+### Main
 
 This section is just a carrier for the microcontroller unit. As was told before, this unit can also be changed to any other microcontroller based unit. The only condition is the main 3V3 input line.
 
 Required Component:
 - ESP32-D1-MINI-CP2104-C
 
-# Feedback
+### Feedback
 
 This section is for the device's feedbacks. It is equipped with a MAX7219 based 8x7+DP segment led NUM display, 2 LEDs with their resistors (red and green w/ 200 R) and lastly with a 80dB (85dB and more can cause permanent hearing problems) piezo beeper.
 
@@ -71,9 +71,9 @@ Required Component:
 - SFN-1207PA5.0
 
 
-# Admin
+### Admin
 
-# Input
+### Input
 
-# Power unit
+### Power unit
 
