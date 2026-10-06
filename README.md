@@ -2,6 +2,10 @@
 
 ## Bomb
 
+> HU / Magyar : [Magyar változat](#magyar-változat)
+
+#### English version
+
 ### Table of Contents
 
 - [Bill of Materials](#bill-of-materials)
@@ -21,21 +25,21 @@
 
 ### Components and Modules w/ Hestore.hu Article Numbers
 
-| Hestore.hu Article No. | Qty. | Component / Module |
-|---|---:|---|
-| `100.423.84` | 1 | SFN-1207PA5.0 |
-| `100.385.19` | 1 | MAX7219-SLD |
-| `100.497.85` | 1 | ESP32-D1-MINI-CP2104-C |
-| `100.420.93` | 1 | TP4056-1A-USBC |
-| `100.417.73` | 1 | KP-4X4/MEM |
-| `100.403.31` | 1 | L-793GD |
-| `100.201.10` | 1 | L-53 IT |
-| `100.355.20` | 1 | RC522-MFRC |
-| `100.375.86` | 1 | PAC-3V3-3P |
-| `100.510.28` | 2 | ECEA0JKA101I |
-| `100.510.27` | 1 | ECEA0JKA221B |
-| `100.205.41` | 2 | 10 K 1% |
-| `100.204.99` | 2 | 200 R 1% |
+| Hestore.hu Article No. | Qty. | Component / Module | Sub-section name |
+|---|---:|---|---|
+| `100.423.84` | 1 | SFN-1207PA5.0 | Feedback |
+| `100.385.19` | 1 | MAX7219-SLD | Feedback |
+| `100.497.85` | 1 | ESP32-D1-MINI-CP2104-C | Main |
+| `100.420.93` | 1 | TP4056-1A-USBC | Power unit |
+| `100.417.73` | 1 | KP-4X4/MEM | Input |
+| `100.403.31` | 1 | L-793GD | Feedback |
+| `100.201.10` | 1 | L-53 IT | Feedback |
+| `100.355.20` | 1 | RC522-MFRC | Admin |
+| `100.375.86` | 1 | PAC-3V3-3P | Power unit |
+| `100.510.28` | 2 | ECEA0JKA101I | Power unit |
+| `100.510.27` | 1 | ECEA0JKA221B | Power unit |
+| `100.205.41` | 2 | 10 K 1% | Main |
+| `100.204.99` | 2 | 200 R 1% | Feedback |
 
 ### Price Calculation for One and Multiple Pieces
 
@@ -100,6 +104,9 @@ The following table can be used as a reference for calculating the battery state
 - ESP32-D1-MINI-CP2104-C
 - 2 × 10 K 1%
 
+Required Pin(s):
+- 1 Anal IO
+
 ---
 
 ### Feedback
@@ -124,6 +131,10 @@ It is equipped with:
 - 2 × 200 R 1%
 - SFN-1207PA5.0
 
+Required Pin(s):
+- 4 SPI (MISO, MOSI, SCLK, CE1 )
+- 3 Dig IO ( -, -, PWM )
+
 ---
 
 ### Admin
@@ -139,6 +150,11 @@ If supported by the selected microcontroller and software, administrator functio
 **Required Component(s):**
 
 - RC522-MFRC
+
+Required Pin(s):
+
+Required Pin(s):
+- 4 SPI (MISO, MOSI, SCLK, CE2 )
 
 ---
 
@@ -156,6 +172,9 @@ It uses a **4 × 4 membrane matrix keypad** with the following characters:
 **Required Component(s):**
 
 - KP-4X4/MEM
+
+Required Pin(s):
+- 8 Dig IO (-, -, -, -, -, -, -, -)
 
 ---
 
@@ -187,7 +206,7 @@ The battery parameters are:
 
 ---
 
-# Magyar változat
+#### Magyar változat
 
 ## Airsoft kellékek és kiegészítők
 
@@ -212,21 +231,21 @@ The battery parameters are:
 
 ### Alkatrészek és modulok Hestore.hu cikkszámokkal
 
-| Hestore.hu cikkszám | Menny. | Alkatrész / Modul |
-|---|---:|---|
-| `100.423.84` | 1 | SFN-1207PA5.0 |
-| `100.385.19` | 1 | MAX7219-SLD |
-| `100.497.85` | 1 | ESP32-D1-MINI-CP2104-C |
-| `100.420.93` | 1 | TP4056-1A-USBC |
-| `100.417.73` | 1 | KP-4X4/MEM |
-| `100.403.31` | 1 | L-793GD |
-| `100.201.10` | 1 | L-53 IT |
-| `100.355.20` | 1 | RC522-MFRC |
-| `100.375.86` | 1 | PAC-3V3-3P |
-| `100.510.28` | 2 | ECEA0JKA101I |
-| `100.510.27` | 1 | ECEA0JKA221B |
-| `100.205.41` | 2 | 10 K 1% |
-| `100.204.99` | 2 | 200 R 1% |
+| Hestore.hu cikkszám | Menny. | Alkatrész / Modul | Alszekció neve |
+|---|---:|---|---|
+| `100.423.84` | 1 | SFN-1207PA5.0 | Visszajelzés |
+| `100.385.19` | 1 | MAX7219-SLD | Visszajelzés |
+| `100.497.85` | 1 | ESP32-D1-MINI-CP2104-C | Főegység |
+| `100.420.93` | 1 | TP4056-1A-USBC | Tápellátás |
+| `100.417.73` | 1 | KP-4X4/MEM | Bevitel |
+| `100.403.31` | 1 | L-793GD | Visszajelzés |
+| `100.201.10` | 1 | L-53 IT | Visszajelzés |
+| `100.355.20` | 1 | RC522-MFRC | Admin |
+| `100.375.86` | 1 | PAC-3V3-3P | Tápellátás |
+| `100.510.28` | 2 | ECEA0JKA101I | Tápellátás |
+| `100.510.27` | 1 | ECEA0JKA221B | Tápellátás |
+| `100.205.41` | 2 | 10 K 1% | Főegység |
+| `100.204.99` | 2 | 200 R 1% | Visszajelzés |
 
 ### Árkalkuláció egy és több darabra
 
@@ -291,6 +310,9 @@ Az alábbi táblázat referenciaértékként használható az akkumulátor tölt
 - ESP32-D1-MINI-CP2104-C
 - 2 × 10 K 1%
 
+Szükséges Pin(ek):
+- 1 Anal IO
+
 ---
 
 ### Visszajelzés
@@ -315,6 +337,10 @@ A következő elemekből áll:
 - 2 × 200 R 1%
 - SFN-1207PA5.0
 
+Szükséges Pin(ek):
+- 4 SPI (MISO, MOSI, SCLK, CE1 )
+- 3 Dig IO ( -, -, PWM )
+
 ---
 
 ### Adminisztrátori egység
@@ -330,6 +356,9 @@ Amennyiben a kiválasztott mikrokontroller és a szoftver lehetővé teszi, az a
 **Szükséges alkatrész(ek):**
 
 - RC522-MFRC
+
+Szükséges Pin(ek):
+- 4 SPI (MISO, MOSI, SCLK, CE2 )
 
 ---
 
@@ -347,6 +376,9 @@ Egy **4 × 4-es membrános mátrix billentyűzetet** használ, amely az alábbi 
 **Szükséges alkatrész(ek):**
 
 - KP-4X4/MEM
+
+Szükséges Pin(ek):
+- 8 Dig IO (-, -, -, -, -, -, -, -)
 
 ---
 
