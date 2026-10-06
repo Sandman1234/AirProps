@@ -7,6 +7,7 @@
 - [Bill of Materials](#bill-of-materials)
   - [Components and Modules](#components-and-modules-w-hestorehu-article-numbers)
   - [Price Calculation](#price-calculation-for-one-and-multiple-pieces)
+- [Topology and Schematic](#topology-and-schematic)
 
 ## Bill of Materials
 
@@ -36,3 +37,7 @@
 | 10 | 58,888 HUF |
 
 > **Price reference:** These prices are in HUF and were recorded on **2026-10-06** and the prices only represent the electronical components only!.
+
+## Topology and Schematic
+![topology](https://github.com/Sandman1234/AirProps/blob/main/Bomb/_readMe_media/d76e02c7-33ff-4fe9-8ae8-5ad07b27028b.jpeg)
+>
