@@ -2,6 +2,10 @@
 
 ## Bomb
 
+> HU / Magyar : [Magyar változat](#magyar-változat)
+
+#### English version
+
 ### Table of Contents
 
 - [Bill of Materials](#bill-of-materials)
@@ -202,7 +206,7 @@ The battery parameters are:
 
 ---
 
-# Magyar változat
+#### Magyar változat
 
 ## Airsoft kellékek és kiegészítők
 
